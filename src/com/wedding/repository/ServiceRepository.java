@@ -2,7 +2,6 @@ package com.wedding.repository;
 
 import java.sql.CallableStatement;
 import java.sql.Connection;
-import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.sql.Types;
@@ -11,10 +10,8 @@ import java.util.List;
 
 import com.google.gson.Gson;
 import com.wedding.databaseconnection.MySqlConnection;
-import com.wedding.dto.FoodPrice;
 import com.wedding.dto.ServicePrice;
 import com.wedding.models.Service;
-import com.wedding.models.ServiceReservation;
 
 public class ServiceRepository {
 	private Gson gson = new Gson();
